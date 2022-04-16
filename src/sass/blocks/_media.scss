@@ -1,0 +1,241 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+    .gradient {
+        * {
+            font-size: 25px;
+        }
+        &__title {}
+        &__count-btns {}
+        &__count-btn {}
+        &__configs {}
+        &__config {}
+        &__config-btn {}
+        &__config-item {
+            margin: 0 10px;
+        }
+        &__config-color {}
+        &__config-color-btn {
+            font-size: 20px;
+        }
+        &__config-color-wrapper {}
+        &__config-color-sharp {}
+        &__config-color-info {}
+        &__place {}
+        &__place-btn {}
+    }
+    .menu {
+        &__items {}
+    }
+    
+
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+    .gradient {
+        * {
+            font-size: 25px;
+        }
+        &__title {}
+        &__count-btns {}
+        &__count-btn {}
+        &__configs {}
+        &__config {
+            padding: 10px 20px;
+        }
+        &__config-btn {
+            padding: 12px 18px;
+            font-size: 24px;
+        }
+        &__config-item {
+            margin: 0 10px;
+        }
+        &__config-color {}
+        &__config-color-btn {
+            font-size: 20px;
+            padding: 12px 18px;
+        }
+        &__config-color-wrapper {}
+        &__config-color-sharp {}
+        &__config-color-info {
+            width: 100px;
+        }
+        &__place {
+            width: 100%;
+        }
+        &__place-btn {}
+    }
+    .menu {
+        &__items {}
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+    .gradient {
+        * {
+            font-size: 18px;
+        }
+        &__title {
+            font-size: 30px;
+        }
+        &__count-btns {}
+        &__count-btn {
+            font-size: 25px;
+        }
+        &__configs {
+            height: 175px;
+        }
+        &__config {
+            padding: 10px 15px;
+            font-size: 18px;
+        }
+        &__config-btn {
+            padding: 12px 18px;
+            font-size: 20px;
+            &:hover {
+                transform: scale(1);
+            }
+        }
+        &__config-item {
+            margin: 0 10px;
+        }
+        &__config-color {}
+        &__config-color-btn {
+            font-size: 18px;
+            padding: 10px 15px;
+        }
+        &__config-color-wrapper {
+            display: flex;
+            flex-direction: column;
+        }
+        &__config-color-sharp {
+            margin-bottom: 5px;
+            height: 40px;
+            line-height: 40px;
+            margin-right: 0;
+        }
+        &__config-color-info {
+            margin-top: 5px;
+            width: 80px;
+            height: 40px;
+        }
+        &__place {
+            width: 100%;
+            height: 280px;
+        }
+        &__place-btn {
+            opacity: 1;
+            &:hover {
+
+            }
+        }
+    }
+    .menu {
+        &__items {}
+    }
+}
+
+@media (max-width: 576px) {
+    .gradient {
+        width: 90%;
+    }
+    .container {
+        width: 100%;
+    }
+    .gradient {
+        padding-bottom: 150px;
+        * {
+            font-size: 18px;
+        }
+        &__title {
+            font-size: 30px;
+        }
+        &__count-btns {}
+        &__count-btn {
+            font-size: 25px;
+        }
+        &__configs {
+            height: 300px;
+        }
+        &__config {
+            width: 100%;
+            padding: 8px 10px;
+            font-size: 18px;
+            display: grid;
+            &:nth-child(1) {
+                grid-template-columns: repeat(2, 50%);
+                grid-template-rows: repeat(2, minmax(53, auto));
+            }
+            &:nth-child(2) {
+                grid-template-columns: repeat(3, 33.33%);
+                grid-template-rows: repeat(2, minmax(53, auto));
+            }
+
+        }
+        &__config-btn {
+            &:nth-child(1) {
+                grid-column: 1/4;
+            }
+            &:nth-child(2) {
+                grid-column: 1 /3;
+            }
+            padding: 12px 18px;
+            font-size: 25px;
+        }
+        &__config-item {
+            margin: 10px 5px;
+        }
+        &__config-color {}
+        &__config-color-btn {
+            font-size: 18px;
+            padding: 10px 10px;
+            width: 100%;
+        }
+        &__config-color-wrapper {
+            display: flex;
+            flex-direction: column;
+        }
+        &__config-color-sharp {
+            margin-bottom: 5px;
+            font-size: 20px;
+            height: 40px;
+            line-height: 40px;
+            width: 40px;
+            text-align: center;
+            margin-right: 0;
+        }
+        &__config-color-info {
+            margin-top: 5px;
+            width: 100%;
+            height: 40px;
+            font-size: 20px;
+        }
+        &__place {
+            width: 100%;
+            height: 280px;
+        }
+        &__place-btn {}
+    }
+    .menu {
+        background: rgba(0, 0, 0, 0.9);
+        &__items {
+            right: 30px;
+        }
+    }
+    .burger {
+        right: 20px;
+    }
+}
+@media (max-width: 350px) {
+    .calculator {
+        grid-template-columns: repeat(4, 70px);
+        grid-template-rows: repeat(6, 70px);
+    }
+}

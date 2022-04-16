@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Рандомный градиент</title>
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="gradient">
+        <div class="container">
+            <h1 class="gradient__title">Количество цветов</h1>
+            <div class="gradient__count-btns">
+                <button class="gradient__count-btn active">2</button>
+                <button class="gradient__count-btn">3</button>
+            </div>
+            <div class="gradient__configs">
+                <div class="gradient__config active">
+                    <button class="gradient__config-btn gradient__config-item">Градиент</button>
+                    <div class="gradient__config-color gradient__config-item">
+                        <button class="gradient__config-color-btn">Цвет 1</button>
+                        <div class="gradient__config-color-wrapper">
+                            <div class="gradient__config-color-sharp">#</div>
+                            <input type="text" class="gradient__config-color-info">
+                        </div>
+                    </div>
+                    <div class="gradient__config-color gradient__config-item">
+                        <button class="gradient__config-color-btn">Цвет 2</button>
+                        <div class="gradient__config-color-wrapper">
+                            <div class="gradient__config-color-sharp">#</div>
+                            <input type="text" class="gradient__config-color-info">
+                        </div>
+                    </div>
+                </div>
+                <div class="gradient__config">
+                    <button class="gradient__config-btn gradient__config-item">Градиент</button>
+                    <div class="gradient__config-color gradient__config-item">
+                        <button class="gradient__config-color-btn">Цвет 1</button>
+                        <div class="gradient__config-color-wrapper">
+                            <div class="gradient__config-color-sharp">#</div>
+                            <input type="text" class="gradient__config-color-info">
+                        </div>
+                    </div>
+                    <div class="gradient__config-color gradient__config-item">
+                        <button class="gradient__config-color-btn">Цвет 2</button>
+                        <div class="gradient__config-color-wrapper">
+                            <div class="gradient__config-color-sharp">#</div>
+                            <input type="text" class="gradient__config-color-info">
+                        </div>
+                    </div>
+                    <div class="gradient__config-color gradient__config-item">
+                        <button class="gradient__config-color-btn">Цвет 3</button>
+                        <div class="gradient__config-color-wrapper">
+                            <div class="gradient__config-color-sharp">#</div>
+                            <input type="text" class="gradient__config-color-info">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="gradient__place">
+                <button class="gradient__place-btn">+</button>
+            </div>
+        </div>
+    </div>
+
+    <button class="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <div class="menu">
+        <ul class="menu__items">
+
+        </ul>
+    </div>
+
+    <script src="js/bundle.js"></script>
+</body>
+</html>
